@@ -1,0 +1,36 @@
+    *{
+        margin: 0; padding: 0;
+    }
+    .teste{
+     background-color:  grey; padding: 10px; box-sizing: border-box;
+     display: flex; flex-wrap: wrap; margin: 20px 0; border-radius: 10px;}
+
+    .jogodavelha{
+        width: 33%; height: 100px; cursor: pointer; position: relative;
+        outline: 3px solid greenyellow;
+    }
+    #jogador1, #jogador2{
+        display: none; font-size: 80px; position: absolute;
+        left: 50%; top: 50%; transform: translate(-50%, -50%);
+    }
+    #jogador1{
+        color: rgb(47, 165, 67);
+    }
+    #jogador2{
+        color: rgb(190, 22, 22);
+    }
+    .header{
+        padding: 20px; background: rgb(72, 85, 52);
+    }
+    .header__title{
+        text-align: center; color: #fff;
+    }
+    .container{
+        text-align: center;  width: 50%; position: absolute; left: 50%; top: 75%;
+         transform: translate(-50%, -75%); border: 0;
+    }
+    #start{
+        padding: 10px 20px; color: white; background-color: yellowgreen;
+        border: 0; border-radius: 10px; cursor: pointer;
+        outline: 0;
+    }
